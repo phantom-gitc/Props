@@ -1,0 +1,25 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Inter, system-ui, sans-serif;
+  color: #111827;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+}
+
+p.app-description {
+  margin-bottom: 2rem;
+  color: #475569;
+  max-width: 42rem;
+  line-height: 1.75;
+}
+
+.cards-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
